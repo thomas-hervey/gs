@@ -1,0 +1,39 @@
+Items to install:
+
+* State Management
+react-redux
+react-dom
+redux
+redux-thunk
+
+*Testing
+enzyme
+react-test-renderer
+react-addons-test-utils
+snapshot-diff
+redux-mock-store
+
+* Requests
+axios
+
+* Authentication
+Firebase?
+
+* Push notifications
+
+* Offline Mode & Persistence
+
+** Backend
+
+* Storage
+Firebase?
+AWS
+
+* Functions
+Firebase
+
+* DB
+Firebase?
+PostGres
+PostGIS
+
