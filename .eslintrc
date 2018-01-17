@@ -25,6 +25,25 @@
           ".jsx"
         ]
       }
+    ],
+    "arrow-parens": [
+      2,
+      "as-needed"
+    ],
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
+      }
+    ],
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allowAfterThis": true
+      }
     ]
   },
   "env": {
