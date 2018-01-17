@@ -1,8 +1,18 @@
 {
+  "name": "great-circles",
+  "version": "0.0.0",
+  "description": "Educational and exploratory geography app",
+  "author": "Thomas Hervey",
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
-    "test": "node ./node_modules/jest/bin/jest.js --watch"
+    "test": "node ./node_modules/jest/bin/jest.js --watch",
+    "test:watch": "npm test -- --watch",
+    "flow": "flow",
+    "flow start": "flow start",
+    "flow stop": "flow stop",
+    "flow status": "flow status",
+    "flow coverage": "flow coverage"
   },
   "jest": {
     "preset": "jest-expo"
@@ -15,6 +25,18 @@
     "react-navigation": "^1.0.0-beta.21"
   },
   "devDependencies": {
-    "jest-expo": "^24.0.0"
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react-native": "^4.0.0",
+    "enzyme": "^3.3.0",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "flow-bin": "^0.63.1",
+    "jest-expo": "^24.0.0",
+    "prettier-eslint": "^8.7.5"
   }
 }
